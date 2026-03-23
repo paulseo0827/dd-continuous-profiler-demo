@@ -247,3 +247,5 @@ public class TimelineServer {
 
 	private static <T> Supplier<T> cache(Supplier<T> method) { return Suppliers.memoize(method); }
 }
+
+
